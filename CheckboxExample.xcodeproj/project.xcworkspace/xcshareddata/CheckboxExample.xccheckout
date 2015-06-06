@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84779170-C8D5-45CF-A5E2-CC47EDFCC21F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CheckboxExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7E737C0BD9065AC7A0087DD8501E0FE868AAEDF</key>
+		<string>github.com:mancunianetz/Checkbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CheckboxExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7E737C0BD9065AC7A0087DD8501E0FE868AAEDF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:mancunianetz/Checkbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7E737C0BD9065AC7A0087DD8501E0FE868AAEDF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7E737C0BD9065AC7A0087DD8501E0FE868AAEDF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CheckboxExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

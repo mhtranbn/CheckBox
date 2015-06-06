@@ -12,7 +12,7 @@ class Checkbox : UIButton {
     var mDelegate: CheckboxDelegate?;
     
     required init(coder: NSCoder) {
-        super.init();
+        super.init(coder: coder);
     }
     
     init(frame: CGRect, title: String, selected: Bool) {
@@ -41,6 +41,6 @@ class Checkbox : UIButton {
     
     func onTouchUpInside(sender: UIButton) {
         self.selected = !self.selected;
-        mDelegate?.didSelectCheckbox(self.selected, identifier: self.tag, title: self.titleLabel.text);
+        mDelegate?.didSelectCheckbox(self.selected, identifier: self.tag, title: self.titleLabel!.text!);
     }
 }
