@@ -11,7 +11,7 @@ import UIKit
 class Checkbox : UIButton {
     var mDelegate: CheckboxDelegate?;
     
-    required init(coder: NSCoder) {
+    required init?(coder: NSCoder) {
         super.init(coder: coder);
     }
     
