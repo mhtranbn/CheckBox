@@ -9,37 +9,33 @@
 import UIKit
 
 class ViewController: UIViewController, CheckboxDelegate {
-    
-    let mCheckboxTitles = ["First option", "Second option", "Third option"];
-    
+
+    let checkboxTitles = ["First option", "Second option", "Third option"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.createCheckboxes();
+        self.createCheckboxes()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
+
     func createCheckboxes() {
-        let lNumberOfCheckboxes = 3;
-        let lCheckboxHeight: CGFloat = 44.0;
-        
-        var lFrame = CGRectMake(0, 20, self.view.frame.size.width, lCheckboxHeight);
-        
-        for (var counter = 0; counter < lNumberOfCheckboxes; counter++) {
-            let lCheckbox = Checkbox(frame: lFrame, title: mCheckboxTitles[counter], selected: false);
-            lCheckbox.mDelegate = self;
-            lCheckbox.tag = counter;
-            
-            self.view.addSubview(lCheckbox);
-            
-            lFrame.origin.y += lFrame.size.height;
+        let numberOfCheckboxes = 3
+        let checkboxHeight: CGFloat = 44.0
+        var frame = CGRectMake(0, 20, self.view.frame.size.width, checkboxHeight)
+
+        for counter in 0 ..< numberOfCheckboxes {
+            let checkbox = Checkbox(frame: frame, title: checkboxTitles[counter], selected: false)
+            checkbox.delegate = self
+            checkbox.tag = counter
+            self.view.addSubview(checkbox)
+            frame.origin.y += frame.size.height
         }
     }
-    
+
     func didSelectCheckbox(state: Bool, identifier: Int, title: String) {
-        print("checkbox '\(title)' has state \(state)");
+        print("Checkbox '\(title)' has state \(state)")
     }
 }
-
