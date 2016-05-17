@@ -1,6 +1,6 @@
 //
-//  Checkbox.swift
-//  PentaGoMobile
+//  CheckBox.swift
+//  CheckBox
 //
 //  Created by Ștefan Godoroja on 8/9/14..
 //  Copyright (c) 2014 Ștefan Godoroja. All rights reserved.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class Checkbox: UIButton {
-    var delegate: CheckboxDelegate?
+class CheckBox: UIButton {
+    var delegate: CheckBoxDelegate?
 
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -20,7 +20,7 @@ class Checkbox: UIButton {
         self.adjustEdgeInsets()
         self.applyStyle()
         self.setTitle(title, forState: UIControlState.Normal)
-        self.addTarget(self, action: #selector(Checkbox.onTouchUpInside(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        self.addTarget(self, action: #selector(CheckBox.onTouchUpInside(_:)), forControlEvents: UIControlEvents.TouchUpInside)
     }
 
     func adjustEdgeInsets() {
@@ -38,6 +38,6 @@ class Checkbox: UIButton {
 
     func onTouchUpInside(sender: UIButton) {
         self.selected = !self.selected
-        delegate?.didSelectCheckbox(self.selected, identifier: self.tag, title: self.titleLabel!.text!)
+        delegate?.didSelectCheckBox(self.selected, identifier: self.tag, title: self.titleLabel!.text!)
     }
 }

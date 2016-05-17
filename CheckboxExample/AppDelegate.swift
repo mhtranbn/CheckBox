@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CheckboxExample
+//  CheckBox
 //
 //  Created by Ștefan Godoroja on 8/9/14.
 //  Copyright (c) 2014 Demo. All rights reserved.
@@ -10,9 +10,9 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-                            
+
     var window: UIWindow?
-    
+
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         return true
     }
@@ -41,4 +41,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

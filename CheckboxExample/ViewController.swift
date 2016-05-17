@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  CheckboxExample
+//  CheckBox
 //
 //  Created by Ștefan Godoroja on 8/9/14.
 //  Copyright (c) 2014 Demo. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, CheckboxDelegate {
+class ViewController: UIViewController, CheckBoxDelegate {
 
     let checkboxTitles = ["First option", "Second option", "Third option"]
 
@@ -27,7 +27,7 @@ class ViewController: UIViewController, CheckboxDelegate {
         var frame = CGRectMake(0, 20, self.view.frame.size.width, checkboxHeight)
 
         for counter in 0 ..< numberOfCheckboxes {
-            let checkbox = Checkbox(frame: frame, title: checkboxTitles[counter], selected: false)
+            let checkbox = CheckBox(frame: frame, title: checkboxTitles[counter], selected: false)
             checkbox.delegate = self
             checkbox.tag = counter
             self.view.addSubview(checkbox)
@@ -35,7 +35,7 @@ class ViewController: UIViewController, CheckboxDelegate {
         }
     }
 
-    func didSelectCheckbox(state: Bool, identifier: Int, title: String) {
+    func didSelectCheckBox(state: Bool, identifier: Int, title: String) {
         print("Checkbox '\(title)' has state \(state)")
     }
 }

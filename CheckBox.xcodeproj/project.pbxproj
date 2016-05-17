@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB11A3D71996405500187836 /* CheckboxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11A3D61996405500187836 /* CheckboxDelegate.swift */; };
+		AB11A3D71996405500187836 /* CheckBoxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11A3D61996405500187836 /* CheckBoxDelegate.swift */; };
 		ABCF586619958C3C00347942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCF586519958C3C00347942 /* AppDelegate.swift */; };
 		ABCF586819958C3C00347942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCF586719958C3C00347942 /* ViewController.swift */; };
 		ABCF586B19958C3C00347942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCF586919958C3C00347942 /* Main.storyboard */; };
 		ABCF586D19958C3C00347942 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCF586C19958C3C00347942 /* Images.xcassets */; };
-		ABCF588319958C5E00347942 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCF588219958C5E00347942 /* Checkbox.swift */; };
+		ABCF588319958C5E00347942 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCF588219958C5E00347942 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB11A3D61996405500187836 /* CheckboxDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxDelegate.swift; sourceTree = "<group>"; };
-		ABCF586019958C3C00347942 /* CheckboxExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckboxExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB11A3D61996405500187836 /* CheckBoxDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxDelegate.swift; sourceTree = "<group>"; };
+		ABCF586019958C3C00347942 /* CheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCF586419958C3C00347942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCF586519958C3C00347942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCF586719958C3C00347942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABCF586A19958C3C00347942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABCF586C19958C3C00347942 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ABCF587719958C3C00347942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABCF587819958C3C00347942 /* CheckboxExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxExampleTests.swift; sourceTree = "<group>"; };
-		ABCF588219958C5E00347942 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		ABCF588219958C5E00347942 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +40,7 @@
 		ABCF585719958C3B00347942 = {
 			isa = PBXGroup;
 			children = (
-				ABCF586219958C3C00347942 /* CheckboxExample */,
-				ABCF587519958C3C00347942 /* CheckboxExampleTests */,
+				ABCF586219958C3C00347942 /* CheckBox */,
 				ABCF586119958C3C00347942 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,22 +48,23 @@
 		ABCF586119958C3C00347942 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABCF586019958C3C00347942 /* CheckboxExample.app */,
+				ABCF586019958C3C00347942 /* CheckBox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABCF586219958C3C00347942 /* CheckboxExample */ = {
+		ABCF586219958C3C00347942 /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
 				ABCF586519958C3C00347942 /* AppDelegate.swift */,
 				ABCF586719958C3C00347942 /* ViewController.swift */,
-				AB11A3D61996405500187836 /* CheckboxDelegate.swift */,
-				ABCF588219958C5E00347942 /* Checkbox.swift */,
+				AB11A3D61996405500187836 /* CheckBoxDelegate.swift */,
+				ABCF588219958C5E00347942 /* CheckBox.swift */,
 				ABCF586919958C3C00347942 /* Main.storyboard */,
 				ABCF586C19958C3C00347942 /* Images.xcassets */,
 				ABCF586319958C3C00347942 /* Supporting Files */,
 			);
+			name = CheckBox;
 			path = CheckboxExample;
 			sourceTree = "<group>";
 		};
@@ -78,29 +76,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ABCF587519958C3C00347942 /* CheckboxExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				ABCF587819958C3C00347942 /* CheckboxExampleTests.swift */,
-				ABCF587619958C3C00347942 /* Supporting Files */,
-			);
-			path = CheckboxExampleTests;
-			sourceTree = "<group>";
-		};
-		ABCF587619958C3C00347942 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABCF587719958C3C00347942 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABCF585F19958C3B00347942 /* CheckboxExample */ = {
+		ABCF585F19958C3B00347942 /* CheckBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABCF587C19958C3C00347942 /* Build configuration list for PBXNativeTarget "CheckboxExample" */;
+			buildConfigurationList = ABCF587C19958C3C00347942 /* Build configuration list for PBXNativeTarget "CheckBox" */;
 			buildPhases = (
 				ABCF585C19958C3B00347942 /* Sources */,
 				ABCF585D19958C3B00347942 /* Frameworks */,
@@ -110,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = CheckboxExample;
+			name = CheckBox;
 			productName = CheckboxExample;
-			productReference = ABCF586019958C3C00347942 /* CheckboxExample.app */;
+			productReference = ABCF586019958C3C00347942 /* CheckBox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABCF585B19958C3B00347942 /* Build configuration list for PBXProject "CheckboxExample" */;
+			buildConfigurationList = ABCF585B19958C3B00347942 /* Build configuration list for PBXProject "CheckBox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABCF585F19958C3B00347942 /* CheckboxExample */,
+				ABCF585F19958C3B00347942 /* CheckBox */,
 			);
 		};
 /* End PBXProject section */
@@ -168,8 +149,8 @@
 			files = (
 				ABCF586819958C3C00347942 /* ViewController.swift in Sources */,
 				ABCF586619958C3C00347942 /* AppDelegate.swift in Sources */,
-				ABCF588319958C5E00347942 /* Checkbox.swift in Sources */,
-				AB11A3D71996405500187836 /* CheckboxDelegate.swift in Sources */,
+				ABCF588319958C5E00347942 /* CheckBox.swift in Sources */,
+				AB11A3D71996405500187836 /* CheckBoxDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +255,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "md.gottlieb.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CheckBox;
 			};
 			name = Debug;
 		};
@@ -287,14 +268,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "md.gottlieb.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CheckBox;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABCF585B19958C3B00347942 /* Build configuration list for PBXProject "CheckboxExample" */ = {
+		ABCF585B19958C3B00347942 /* Build configuration list for PBXProject "CheckBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABCF587A19958C3C00347942 /* Debug */,
@@ -303,7 +284,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABCF587C19958C3C00347942 /* Build configuration list for PBXNativeTarget "CheckboxExample" */ = {
+		ABCF587C19958C3C00347942 /* Build configuration list for PBXNativeTarget "CheckBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABCF587D19958C3C00347942 /* Debug */,
